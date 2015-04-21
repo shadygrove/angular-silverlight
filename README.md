@@ -1,7 +1,4 @@
-# angular-silverlight
-Sample app showing how Silverlight and Angular can interact via Script Objects
-
-About This Repo
+About angular-silverlight
 =================
 I have been trying to figure out the best way to handle the javascript callbacks within an Angular application, and have created a working sample.  
 
