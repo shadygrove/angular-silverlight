@@ -7,13 +7,13 @@ I have been trying to figure out the best way to handle the javascript callbacks
 
 Proposed Solution
 -----------
-*Here is an example of calling a script object without using Init Params…*  
+**Example of calling a script object *without* using Init Params…**  
 ScriptObject myScriptObject = (ScriptObject)HtmlPage.Window.Invoke("myJSObject");  
 myScriptObject.Invoke("myMethod");  
  
 myJSObject is a Javascript object that we would create in the html/js UI.
  
-*Here is how it would look with Init Params*  
+**Here is how it would look with Init Params**  
 ScriptObject myScriptObject = (ScriptObject)HtmlPage.Window.Invoke(InitParams[‘jsObjType’]);  
 myScriptObject.Invoke InitParams[‘jsObjFunctionName’]);  
  
