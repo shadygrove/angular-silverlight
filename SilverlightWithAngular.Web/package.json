@@ -1,0 +1,17 @@
+{
+  "name": "SilverlightWithAngular.Web",
+  "version": "1.0.0",
+  "description": "sample silverlight app",
+  "main": "SilverlightWithAngularTestPage.html",
+  "dependencies": {
+    "serve": "^1.4.0"
+  },
+  "devDependencies": {
+    "node-serve": "0.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin",
+  "license": "ISC"
+}
